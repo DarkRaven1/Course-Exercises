@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <button class="add-button" onclick="
+      displayAdded();
+    ">Add to cart</button>
+    <p class="par"></p>
+
+    <script>
+      let timeout;
+
+      function displayAdded() {
+        document.querySelector('.par').innerHTML = 'Added';
+
+        clearTimeout(timeout);
+
+          timeout = setTimeout(function() {
+          document.querySelector('.par').innerHTML = '';
+        }, 2000);
+        
+      }
+    </script>
+  </body>
+</html>

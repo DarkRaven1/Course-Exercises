@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+    <script>
+
+      const array = ['hello', 'world', 'search', 'good', 'search'];
+      let f = 0 , i = 0;
+      for(i = 0; i <= array.length - 1; i++){
+        if(array[i] === 'search'){
+          f++;
+          break;
+        }
+      }
+      if(f > 0) {
+        console.log(i);
+      } else {
+        console.log(-1);
+      }
+
+    </script>
+
+  </body>
+</html>

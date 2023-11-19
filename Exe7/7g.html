@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Coculator</title></head>
+  <body>
+
+    <p>
+      <button onclick="updateCalculation('1');">1</button>
+
+      <button onclick="updateCalculation('2');">2</button>
+  
+      <button onclick="updateCalculation('3');">3</button>
+    </p>
+  
+    <P>
+      <button onclick="updateCalculation('4');">4</button>
+
+      <button onclick="updateCalculation('5');">5</button>
+  
+      <button onclick="updateCalculation('6');">6</button>
+    </P>
+
+    <p>
+      <button onclick="updateCalculation('7');">7</button>
+
+      <button onclick="updateCalculation('8');">8</button>
+  
+      <button onclick="updateCalculation('9');">9</button>
+    </p>
+
+    <p>
+      <button onclick="updateCalculation('+');;">+</button>
+
+      <button onclick="updateCalculation('0');">0</button>
+
+    <button onclick="colculation = eval(colculation);
+    console.log(colculation);">=</button>
+    </p>
+    
+
+    <script>
+
+      let colculation = '';
+      function updateCalculation(item){
+        colculation += item;
+        console.log(colculation);
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Projects</title>
+  </head>
+  <body>
+
+    <p>YouTube Subscribe Button</p>
+    
+    <button class="sub-button" onclick="
+    subFun();
+      ">Subscribe</button>
+
+
+    <p>Orders under $40 = +$10 shipping.</p>
+    <p>Orders over $40 = FREE shipping.</p>
+
+    <
+    <script>
+
+      function subFun(){
+        const hello = document.querySelector('.sub-button');
+      if(hello.innerHTML === 'Subscribe'){
+        hello.innerHTML = 'Subscribed';
+      } else {
+        hello.innerHTML = 'Subscribe';
+      }
+      }
+
+    </script>
+
+  </body>
+</html>

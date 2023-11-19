@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(5, 5, 5);
+  font-family: Arial;
+}
+button {
+  height: 50px;
+  width: 50px;
+}
+
+.js-calculation { 
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: -2px;
+}
+.black-circles,.yellow-circles {
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(40, 40, 40);
+  margin-right: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.yellow-circles {
+  background-color: rgb(255, 153, 0);
+}
+.yellow-circles:hover {
+  background-color: rgb(255, 168, 15);
+}
+.yellow-circles:active {
+  background-color: rgb(255, 183, 30);
+}
+
+.black-circles:hover{
+  background-color: rgb(50, 50, 50);
+}
+.black-circles:active{
+  background-color: rgb(60, 60, 60);
+}
+
+.clear-text{
+  font-size: 14px;
+}

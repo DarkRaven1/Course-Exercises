@@ -1,0 +1,1 @@
+console.log('Ali Hemmati\n'.repeat(10));

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+    <input class="input1" placeholder="Type something" onkeyup="
+      
+      inputWriter();
+
+    ">
+
+    <p class="par"></p>
+    <script>
+      function inputWriter(){
+        const inputElement = document
+          .querySelector('.input1');
+          
+        document.querySelector('.par')
+          .innerHTML = inputElement.value;
+      }
+      
+
+    </script>
+
+  </body>
+</html>

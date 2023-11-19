@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+    <button class="heads-button" onclick="
+      button('.heads-button');
+    ">heads</button>
+
+    <button class="tails-button" onclick="
+      button('.tails-button');
+    ">tails</button>
+    <p class="paragraph"></p>
+
+    <script>
+
+      function button (a) {
+        if(a === '.heads-button')
+          document.querySelector('.paragraph').innerHTML = 'You chose: heads';
+        else if (a === '.tails-button')
+          document.querySelector('.paragraph').innerHTML = 'You chose: tails';
+      }
+    </script>
+  </body>
+</html>
